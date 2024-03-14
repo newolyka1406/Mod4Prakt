@@ -2,14 +2,14 @@
 	<title>Блог</title>
 </svelte:head>
 <div class="container">
-	<h1>Мои статьи</h1>
+	<h1>Что можно рассказать в блоге?</h1>
 	<div class="blogposts">
 		{#each routes as page}
 			<div class="post">
 				<h2>{page.title}</h2>
 				<p>{page.body}</p>
 				<p class="readmore">
-					<a class="link" href={`/blog/posts/${page.id}`}> Читать далее </a>
+					<a class="link" href={`/blog/posts/${page.id}`}> Читай дальше </a>
 				</p>
 			</div>
 		{/each}

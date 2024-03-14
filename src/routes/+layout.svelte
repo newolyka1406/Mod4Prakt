@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия</a>
+        <a href="/" class="nav-logo" title="Back to Homepage">Иваненко Ольга</a>
         <div class="nav-links">
             {#each nav as link}
 				{#if link.isShow}
@@ -28,12 +28,17 @@
 			isShow: true
 		},
 		{
+			title: 'Дневник.ру',
+			href: '/project',
+			isShow: true
+		},
+		{
 			title: 'Контакты',
 			href: '/contact',
 			isShow: true
 		},
         {
-			title: 'temp',
+			title: 'хз',
 			href: '/temp',
 			isShow: true
 		}

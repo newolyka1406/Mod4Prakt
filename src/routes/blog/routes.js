@@ -1,12 +1,12 @@
 export const routes = [
 	{
 		id: 1,
-		title: 'My First Blog Post',
-		body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+		title: '1. Расскажите, чем вы можете быть полезны',
+		body: 'Нас ещё на уроках литературы учили, что сначала нужны завязка и ружьё на стене, которое выстрелит в кульминационный момент. ',
 	},
     {
 		id: 2,
-		title: 'My Second Blog Post',
-		body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+		title: '2. Представьтесь',
+		body: 'Вторая рекомендация может показаться вам смешной, но слишком много раз видела тексты предпринимателей, в которых нет имени.',
 	}
 ];
